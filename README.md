@@ -1,4 +1,5 @@
 1 What are some differences between interfaces and types in TypeScript?
+
 Ans: TypeScript-এ interface এবং type alias—দুটোই structure বা shape ডিফাইন করতে ব্যবহৃত হয়। তবে এদের মধ্যে কিছু মৌলিক পার্থক্য রয়েছে।
 
  মূল পার্থক্যগুলো হোল:
@@ -26,8 +27,8 @@ const u: User = { name: "Aman", age: 22 };
 
 
 2 Explain the difference between any, unknown, and never types in TypeScript.
-Ans: TypeScript-এ এই তিনটি type সবচেয়ে বেশি বিভ্রান্তি তৈরি করে। এদের কাজ সম্পূর্ণ 
 
+Ans: TypeScript-এ এই তিনটি type সবচেয়ে বেশি বিভ্রান্তি তৈরি করে। এদের কাজ সম্পূর্ণ 
 any — সবকিছু অনুমতি দেয়
 আপনি যেকোনো operation করতে পারবেনType checking বন্ধ হয়ে যায় ভুল করার সম্ভাবনা বেশি
 let a: any = "Hello";
