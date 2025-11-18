@@ -14,6 +14,7 @@ interface Employee extends Person {
 }
 type A = { x: number };
 type B = A & { y: number };
+
 2 Declaration Merging
 interface → একাধিকবার declare করলে merge হয়ে যায type → merge হয় না
 interface User {
